@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>gigcompany</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #00c6ff, #0072ff);
+      color: white;
+      font-family: 'Segoe UI', sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+      overflow: hidden;
+    }
+
+    img.logo {
+      width: 180px;
+      height: auto;
+      margin-bottom: 20px;
+      border-radius: 12px;
+      animation: fadeIn 2s ease-out;
+      box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    }
+
+    h1 {
+      font-size: 3em;
+      margin: 0;
+      animation: slideUp 1s ease-out;
+    }
+
+    p {
+      font-size: 1.2em;
+      margin-top: 10px;
+      animation: fadeIn 2s ease-in 0.5s;
+    }
+
+    .small {
+      margin-top: 3em;
+      font-size: 0.9em;
+      opacity: 0.8;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    @keyframes slideUp {
+      from { transform: translateY(20px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+  <img src="GIGcompany.png" alt="gigcompany logo" class="logo" />
+  <h1>👋Welcome to gigcompany</h1>
+  <p>기술과 창의력으로 세상을 바꾸는 작은 시작, GIGcompany입니다.</p>
+  <div class="small">&copy; 2025 gigcompany. All rights reserved.</div>
+</body>
+</html>
