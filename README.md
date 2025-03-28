@@ -1,2 +1,2 @@
 # gigcompany
-gigcompany
+gigcompany입니다 
